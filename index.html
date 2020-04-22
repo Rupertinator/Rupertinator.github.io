@@ -4,23 +4,35 @@
     <meta charset="utf-8">
     <title>Rupertinator</title>
     <style>
+      #all-content {
+        border: 5px dotted blue;
+        padding: 5px;
+        background-color: rgb(10, 32, 74);
+        width: 90%;
+        margin: auto;
+      }
       h1 {
         font-family: sans-serif;
-        margin: auto;
+        color: rgb(212, 32, 19);
       }
       .p-1 {
         background-color: red;
         width: 70%;
+      #paragraph {
+        font-weight: bold;
+      }
       }
     </style>
   </head>
   <body>
+    <div id="all-content">
     <h1>Rupertinator</h1>
     
     <h2>Check one, check two.</h2>
     
     <div class="p-1">
-      <p>Hello, world. How are you? This is a paragraph. Check one, check two. How are you is a question, and this is an attempt to check the functionality of this website.</p>
+      <p>Hello, world. How are you? This is a <span id="paragraph">paragraph</span>. Check one, check two. How are you is a question, and this is an attempt to check the functionality of this website.</p>
+    </div>
     </div>
   </body>
 </html>
